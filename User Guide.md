@@ -119,8 +119,7 @@ These components work together to create a robust, real-time bus tracking system
    ```
    npm run dev
    ```
-
-2. Open your web browser and navigate to `http://localhost:3000`.
+Open your web browser and navigate to `http://localhost:3000`.
 
 - The map will display bus locations as markers.
 - Bus positions and speeds will update in real-time.
