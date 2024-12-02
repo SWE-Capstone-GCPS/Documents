@@ -99,8 +99,17 @@ These components work together to create a robust, real-time bus tracking system
 
 ### 5.1 Starting the Backend Services
 
-1. Start the Kafka producer:
-1. Start the main application (consumer, processor, and database manager):
+1. Start the Zookeeper:
+   ```
+   cd kafka
+   bin/zookeeper-server-start.sh config/zookeeper.properties
+   ```
+3. Start Kafka:
+    ```
+   cd kafka
+   bin/kafka-server-start.sh config/server.properties
+   ```
+5. Start the main application (consumer, processor, and database manager):
    ```
    python main.py
    ```
