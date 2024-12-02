@@ -8,7 +8,6 @@
 5. Using the Application
    5.1 Starting the Backend Services
    5.2 Launching the Frontend
-   5.3 Interacting with the Map
 6. Troubleshooting
 7. Frequently Asked Questions (FAQ)
 8. Contact Support
@@ -122,8 +121,6 @@ These components work together to create a robust, real-time bus tracking system
    ```
 
 2. Open your web browser and navigate to `http://localhost:3000`.
-
-### 5.3 Interacting with the Map
 
 - The map will display bus locations as markers.
 - Bus positions and speeds will update in real-time.
