@@ -50,7 +50,7 @@ Welcome to the Real-Time Bus Tracking System! This application allows you to mon
 
 5. Set up environment variables for database and WebSocket server configuration.
 
-6. Ensure you have a MySQL database set up and running with the correct schema for Event and Vehicle tables.
+6. Ensure you have a MySQL database set up and running with the correct schema for Event_Instances and Asset_Telemetry tables.
 
 7. Ensure Kafka and Zookeeper are running on your system.
 
